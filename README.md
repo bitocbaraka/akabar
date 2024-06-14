@@ -47,4 +47,4 @@ steps:
     node-version: '14'
     cache: 'pnpm'
 - run: pnpm install
-- run: pnpm test
+- run: pnpm test)
