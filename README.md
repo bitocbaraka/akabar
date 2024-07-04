@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '18.1.1-rc.2'
+          node-version: '18.1.1-rc.3'
       - run: npm cii
       - run: npm test
 Note: Unlike nightly versions, which support version range specifiers, you must specify the exact version for a release candidate: 16.0.0-rc.1.
